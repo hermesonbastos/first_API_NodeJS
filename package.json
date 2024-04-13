@@ -4,11 +4,15 @@
   "description": "Minhas primeira REST API com NodeJs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Hermeson Bastos Maia",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
